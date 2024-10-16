@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .project {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            max-width: 100%;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yorgo Kennos</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a passionate developer with experience in various programming languages. Here are some of the projects I've worked on.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project One</h3>
+            <img src="project1.jpg" alt="Project One Screenshot">
+            <p>Description of the first project. This is where you can explain what the project does, the technologies used, and any challenges you faced.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project Two</h3>
+            <img src="project2.jpg" alt="Project Two Screenshot">
+            <p>Description of the second project. Share the key features and improvements made from previous projects.</p>
+        </div>
+
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to get in touch, feel free to email me at <a href="mailto:yorgokennos@gmail.com">yorgokennos@gmail.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
