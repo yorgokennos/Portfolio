@@ -1,0 +1,12 @@
+header {
+    background-image: url('https://gripped.com/wp-content/uploads/2018/02/Kalymnos8-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+  color: #000000;
+}
